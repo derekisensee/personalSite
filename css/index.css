@@ -34,14 +34,18 @@ button:hover {
   width: 75%;
   border-style: solid;
   border-width: 1px;
-  border-color: #d1d1d1;
+  border-color: black;
   margin-top: 120px;
+  background-color: #f23cb2;
 
-  opacity: .5;
+  opacity: .7;
+
+  animation-name: floating;
+  animation-duration: 8s;
 }
 
 h1 {
-  background-color: #969696;
+  margin-bottom: 20px;
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
   text-align: center;
@@ -54,4 +58,17 @@ p {
 
 .barButton {
 
+}
+
+@keyframes floating {
+  from {
+    position: absolute;
+    top: 80px;
+    left: 11%;
+  }
+  to {
+    position: absolute;
+    top: -20px;
+    left: 11%;
+  }
 }
