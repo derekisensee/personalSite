@@ -1,4 +1,8 @@
 $(document).ready(function() {
   $("#topBar").hide();
-  $("#topBar").show(1000);
+  $("#topBar").fadeIn(4000);
+
+  $(".name").hide();
+  $(".name").fadeIn(4000);
+
 });
