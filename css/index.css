@@ -49,11 +49,27 @@ button:hover {
   animation-duration: 8s;
 }
 
-h1 {
+.loud {
   margin-bottom: 20px;
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
   text-align: center;
+}
+
+.skills {
+  margin: auto;
+  width: 75%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-top: 120px;
+  background-color: #f23cb2;
+
+  opacity: .7;
+
+  position: absolute;
+  top: 750px;
+  left: 11%;
 }
 
 p {
