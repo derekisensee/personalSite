@@ -44,22 +44,16 @@ body {
   left: 11%;
 }
 
+p {
+  color: #f2f2f2;
+  opacity: 1;
+}
+
 .topList {
     list-style-type: none;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     overflow: hidden;
-}
-
-a {
-    display: block;
-    text-decoration: none;
-    transition: .3s;
-    color: #f23cb2;
-}
-
-a:link {
-    color: #f23cb2; 
 }
 
 .topListEntry {
@@ -73,14 +67,8 @@ a:link {
     transition: 0.4s;
 }
 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
 .topListEntry:hover {
     color: white;
-    
 }
 
 @keyframes floating {

@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   $(".name").hide();
   $(".name").fadeIn(4000);
-  /*
+
   $(window).scroll(function() {
     var nameTop = $("#name").height();
     if ($(this).scrollTop() >= nameTop) {
@@ -14,5 +14,4 @@ $(document).ready(function() {
       $("#name").show("slow");
     }
   });
-  */
 });

@@ -8,8 +8,8 @@
   <div>
     <ul class="topList">
       <li class="topListEntry"><a href="">ABOUT ME</a></li>
-      <li class="topListEntry"><a href="">MOVIES</a></li>
-      <li class="topListEntry"><a href="">PROJECTS</a></li>
+      <li class="topListEntry">MOVIES</li>
+      <li class="topListEntry">PROJECTS</li>
     </ul>
   </div>
 
