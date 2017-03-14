@@ -1,0 +1,32 @@
+body {
+  background-image: url(/css/DSC_0369.jpg);
+}
+
+img {
+    max-width: 33%;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #f23cb2;
+    text-decoration: none;
+}
+
+a:link {
+    color: #f23cb2; 
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+p:hover {
+    color: white;
+    text-decoration: none;
+}
